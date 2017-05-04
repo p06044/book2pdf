@@ -9,6 +9,6 @@ for i in *.jpg
 do
 	convert -crop 1350x840+0+0 ${i} c${j}.jpg
 	j=`expr $j + 1`
-	convert -crop 1350x1680+0+840 ${i} c${j}.jpg
+	convert -crop 1350x840+0+840 ${i} c${j}.jpg
 	j=`expr $j + 1`
 done
