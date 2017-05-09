@@ -9,3 +9,5 @@ wait $!
 bash ~/book2pdf/jpg2pdf.sh
 wait $!
 mv rc*.pdf pdf
+cd pdf
+open *.pdf
